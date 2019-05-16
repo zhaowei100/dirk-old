@@ -1,0 +1,20 @@
+server:
+  port: 8881
+
+management:
+  context-path: /client 
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+  security:
+    enabled: false
+  
+logging:
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'debug'
+    
+client:
+  test: helloworld123afadfadf
+

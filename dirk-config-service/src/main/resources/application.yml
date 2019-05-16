@@ -1,0 +1,23 @@
+server:
+  port: 8880
+
+management:
+  context-path: /admin
+  
+logging:
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
+    
+spring:
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: classpath:/
+
+---
+spring:
+  profiles:
+    active: native
+

@@ -17,4 +17,13 @@ logging:
     
 client:
   test: helloworld123afadfadf
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:3721/eureka/
+      
+spring:
+  application:
+    name: dirk-rest
 

@@ -46,8 +46,9 @@
 	</dependencies>
 	
 	<modules>
-		<module>dirk-config-service</module>
-		<module>dirk-rest-service</module>
+		<module>dirk-config</module>
+		<module>dirk-rest</module>
+		<module>dirk-eureka</module>
 	</modules>
 	<build>
 		<plugins>

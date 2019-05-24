@@ -53,6 +53,7 @@
 		<module>dirk-config</module>
 		<module>dirk-rest</module>
 		<module>dirk-eureka</module>
+		<module>dirk-zuul</module>
 	</modules>
 	<build>
 		<plugins>

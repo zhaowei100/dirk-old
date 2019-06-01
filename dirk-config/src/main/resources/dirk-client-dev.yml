@@ -26,4 +26,12 @@ eureka:
 spring:
   application:
     name: dirk-rest
+    
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 2000
 

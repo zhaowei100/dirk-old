@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: dirk-hadoop
+               
+server:
+  port: 1234
+  
+hbase:
+  config:
+    hbase.zookeeper.quorum: hadoop105
+    hbase.zookeeper.property.clientPort: 2181

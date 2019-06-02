@@ -54,6 +54,7 @@
 		<module>dirk-rest</module>
 		<module>dirk-eureka</module>
 		<module>dirk-zuul</module>
+		<module>dirk-hadoop</module>
 	</modules>
 	<build>
 		<plugins>

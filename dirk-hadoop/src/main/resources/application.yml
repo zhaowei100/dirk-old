@@ -1,6 +1,13 @@
 spring:
   application:
     name: dirk-hadoop
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: classpath:/
                
 server:
   port: 1234

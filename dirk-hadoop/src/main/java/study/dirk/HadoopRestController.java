@@ -21,7 +21,7 @@ public class HadoopRestController {
 	@Autowired
 	private HbaseTemplate hbaseTemplate;
 
-	@RequestMapping("hbase/test")
+	@RequestMapping("hbase/test") 
 	public String putTest() throws Exception {
 		String tableName = "hadoop_test";
 		String rowName = "abc";
